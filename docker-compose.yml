@@ -29,7 +29,7 @@ services:
     volumes:
       - ./fruver/fruver:/code
     ports:
-      - "8000:8000"
+      - "8081:8081"
     stdin_open: true
     tty: true
     networks:

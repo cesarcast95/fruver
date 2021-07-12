@@ -27,6 +27,6 @@ COPY ./fruver/. /code/
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 8080
+EXPOSE 8081
 
 ENTRYPOINT ["bash", "/entrypoint.sh"]
